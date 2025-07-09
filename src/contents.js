@@ -1070,7 +1070,7 @@ class Contents {
 
 		// TODO: inline-block needs more testing
 		// Fixes Safari column cut offs, but causes RTL issues
-		// this.css("display", "inline-block");
+		this.css("display", "inline-block");
 
 		this.css("overflow-y", "hidden");
 		this.css("margin", "0", true);
